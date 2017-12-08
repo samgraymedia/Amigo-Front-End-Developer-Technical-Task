@@ -1,0 +1,27 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": " an HTML form that allows customers to submit a bug report when they have landed on this page after hitting a website error.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samgraymedia/Amigo-Front-End-Developer-Technical-Task.git"
+  },
+  "author": "Samuel Gray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samgraymedia/Amigo-Front-End-Developer-Technical-Task/issues"
+  },
+  "homepage": "https://github.com/samgraymedia/Amigo-Front-End-Developer-Technical-Task#readme",
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5"
+  }
+}
