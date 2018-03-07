@@ -2,6 +2,7 @@
   font-family: main;
   src: url("media/font.otf") format("opentype");
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -16,17 +17,20 @@ body {
   font-family: sans-serif;
   font-family: main;
   background-color: #f5f5f5;
-  }
+}
+
 h1 {
   color: #074864;
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
 }
+
 h2 {
   margin-bottom: 2rem;
   text-align: center;
 }
+
 .wrap {
   width: 80%;
   margin: 0 auto;
@@ -45,46 +49,45 @@ h2 {
   margin-left: 5px;
   width: 100%;
 }
+
 @media (min-width: 768px) {
-
-.col-1 {
-  width: 100%; }
-
-.col-2 {
-  width: calc(50% - 5px); }
-
-.col-3 {
-  width: calc(33.33% - 5px); }
-
-.col-4 {
-  width: calc(25% - 5px); }
-
-.col-5 {
-  width: calc(20% - 5px); }
-
-.col-6 {
-  width: calc(16.667% - 5px); }
-
-.col-7 {
-  width: calc(14.28% - 5px); }
-
-.col-8 {
-  width: calc(12.5% - 5px); }
-
-.col-9 {
-  width: calc(11.11% - 5px); }
-
-.col-10 {
-  width: calc(10% - 5px); }
-
-.col-11 {
-  width: calc(9.09% - 5px); }
-
-.col-12 {
-  width: calc(8.33% - 5px); }
+  .col-1 {
+    width: 100%;
+  }
+  .col-2 {
+    width: calc(50% - 5px);
+  }
+  .col-3 {
+    width: calc(33.33% - 5px);
+  }
+  .col-4 {
+    width: calc(25% - 5px);
+  }
+  .col-5 {
+    width: calc(20% - 5px);
+  }
+  .col-6 {
+    width: calc(16.667% - 5px);
+  }
+  .col-7 {
+    width: calc(14.28% - 5px);
+  }
+  .col-8 {
+    width: calc(12.5% - 5px);
+  }
+  .col-9 {
+    width: calc(11.11% - 5px);
+  }
+  .col-10 {
+    width: calc(10% - 5px);
+  }
+  .col-11 {
+    width: calc(9.09% - 5px);
+  }
+  .col-12 {
+    width: calc(8.33% - 5px);
+  }
 }
-
-
 
 form input[type=text], form input[type=email] {
   height: 4em;
@@ -93,11 +96,14 @@ form input[type=text], form input[type=email] {
   border-top-left-radius: .27777em;
   border-bottom-left-radius: .27777em;
   border-right: 3px solid #074864;
-  padding: .42em .375em; }
-form input[type=email]{
+  padding: .42em .375em;
+}
+
+form input[type=email] {
   border-top-right-radius: .27777em;
   border-bottom-right-radius: .27777em;
 }
+
 form textarea {
   height: 200px !important;
   border-width: 3px;
@@ -111,13 +117,13 @@ form textarea {
 
 form select {
   background: #fff;
-  border: 5px soild #074864 ;
+  border: 5px soild #074864;
   font-size: 14px;
   height: 29px;
-  padding: 5px; /* If you add too much padding here, the options won't show in IE */
+  padding: 5px;
+  /* If you add too much padding here, the options won't show in IE */
   width: 268px;
 }
-
 
 form label {
   margin-left: 10px;
@@ -134,9 +140,10 @@ button {
   font-weight: 600;
   padding-top: .25em;
   padding-bottom: .25em;
-  cursor:pointer;
+  cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
+
 button:hover {
   border-width: 3px;
   border-color: #074864;
@@ -149,34 +156,31 @@ button:hover {
   font-weight: 600;
   padding-top: .25em;
   padding-bottom: .25em;
-  cursor:pointer;
+  cursor: pointer;
 }
 
-input, textarea{
+input, textarea {
   padding: 0.2rem;
 }
 
-
-.error{
+.error {
   color: red;
   text-align: center;
   font-weight: 600;
 }
 
-
-.success{
+.success {
   text-align: center;
 }
 
-
-.blueMan{
+.blueMan {
   position: absolute;
   top: 0;
   right: 0;
   z-index: -1;
 }
 
-.blueMen{
+.blueMen {
   width: 389px;
   height: 369px;
   position: absolute;
